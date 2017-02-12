@@ -95,4 +95,7 @@ Rails.application.configure do
     s3_host_name: ENV.fetch('AWS_S3_HOST_NAME')
     }
   }
+
+  #Required for devise
+  config.action_mailer.default_url_options = {:host => 'localhost:3000' }
 end
