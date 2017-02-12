@@ -41,6 +41,10 @@ gem 'bootstrap-sass', '~> 3.3.6'
 # Paper clip for file upload
 gem 'paperclip', '~> 5.0.0'
 
+gem 'aws-sdk', '~> 2.3.0'
+
+gem "figaro"
+
 group :production do
   gem 'pg'
   gem 'rails_12factor'
