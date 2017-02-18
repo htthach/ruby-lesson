@@ -8,6 +8,6 @@ class Listing < ApplicationRecord
   	validates :image, attachment_presence: true
 
   	belongs_to :user
-  	
+  	has_many :orders
 end
  
